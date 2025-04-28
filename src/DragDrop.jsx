@@ -1,10 +1,9 @@
-import SidebarLeft from "./components/SidebarLeft"
-import SidebarRight from "./components/SidebarRight"
-import TopBar from "./components/TopBar"
-import Canvas from "./components/Canvas"
+import SidebarLeft from "./components/SidebarLeft";
+import SidebarRight from "./components/SidebarRight";
+import TopBar from "./components/TopBar";
+import Canvas from "./components/Canvas";
 
 function DragDrop() {
-
   return (
     <div className="h-dvh w-dvw flex flex-col overflow-hidden">
       <TopBar />
@@ -14,7 +13,7 @@ function DragDrop() {
         <SidebarRight />
       </div>
     </div>
-  )
+  );
 }
 
-export default DragDrop
+export default DragDrop;
