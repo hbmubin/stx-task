@@ -1,12 +1,40 @@
-# React + Vite
+# STX Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Link:** [STX Builder](https://stx-builder.netlify.app)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Overview
 
-## Expanding the ESLint configuration
+**STX Builder** is a simple drag-and-drop web page builder.  
+Users can drag predefined components (navigation bars, headings, paragraphs) into a canvas and customize their styles, including font size, color, padding, and background color.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Installation and Running Locally
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/stx-builder.git
+
+# 2. Navigate to the project directory
+cd stx-builder
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
+
+After running, open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 🛠️ Tech Stack
+- **React.js** — Frontend framework
+- **Tailwind CSS** — Styling
+- **React Context API** — State management
+
+## 📄 Features
+- Drag and drop predefined components
+- Select and customize components
+- Real-time style editing (font size, color, padding, etc.)
+- Component deletion
