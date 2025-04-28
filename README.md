@@ -15,7 +15,7 @@ Users can drag predefined components (navigation bars, headings, paragraphs) int
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/stx-builder.git
+git clone https://github.com/hbmubin/stx-task.git
 
 # 2. Navigate to the project directory
 cd stx-builder
