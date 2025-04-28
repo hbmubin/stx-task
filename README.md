@@ -26,7 +26,7 @@ npm install
 # 4. Start the development server
 npm run dev
 
-After running, open [http://localhost:3000](http://localhost:3000) in your browser.
+```
 
 ## 🛠️ Tech Stack
 - **React.js** — Frontend framework
